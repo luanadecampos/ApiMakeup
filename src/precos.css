@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(250, 232, 245);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container{
+ align-items: baseline;
+display: flex;
+flex-wrap: wrap;
+width: 80%;
+margin: auto;
+align-items: stretch;
+
+}
+
+.flex-item{
+    border: 1px  rgb(219, 145, 145);
+    width: 300px;
+    align-content: stretch;
+    border-style: double;
+    background-color:whitesmoke;
+}
+
+.descricao{
+    background-color: rgb(250, 192, 235);
+    font-family:  Times, 'Times New Roman', serif;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.carri{
+
+    width: 40px;
+    height: 30px;
+    margin: auto;
+}
+.compras h1{
+font-size: 20px;
+color: rgb(105, 105, 201);
+text-align: right;
+}
+.preco{
+ margin: auto;
+ margin: 3px;
+ justify-content: center;
+ background-color: rgb(247, 169, 230);
+ font-family: 'negrito' , cursive;
+ border-radius: 25%;
+} 
+.preco:hover{
+    color: rgb(21, 21, 105);
+}
+.produto:hover{
+    color: rgb(21, 21, 105);
+}
+.produto{
+
+    font-weight: 600;
+    text-decoration: none;
+    padding: 1px;
+    margin: 0;
+    border-radius: 25%;
+    bottom: unset;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color:  rgb(95, 95, 231);
+    
+
+}
+
+.header{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: auto;   
+}
+.compras h1:hover{
+    color: rgb(21, 21, 105);
+}
+.header li:hover{
+    color: rgb(21, 21, 105);
+}
+
+.header li{
+color: rgb(105, 105, 201);
+list-style: none;
+display:inline-block;
+padding: 40px;
+height: 50px;
+width: 100px;
+margin-right: 40px;
+bottom:center;
+font-size: 40px;
+margin: auto;
+width: auto;
+width: 30%, left;
+overflow: hidden;
+font-size: 60px;
+text-align: center;
+}
+
+
+.email {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: rgb(53, 53, 167);
+    bottom: unset;
+    font-size: 30px;
+
+}
+.pesquisar{
+    margin-left: auto;
+    margin-top: 1em;
+    position:relative;
+    padding: 10px;
+
+}
+
+
+.buttonPesq{
+    color:  rgb(105, 105, 201);
+    border:thick  groove rgb(255,0,255);
+    border-radius: 25%;
+    padding: 10px;
+    
+}
+.button{
+    color:  rgb(105, 105, 201);
+    border:thick  groove rgb(255,0,255);
+    border-radius: 25%;
+    
+}
+
+.pesque{
+    width: 400px;
+    height: 50px;
+    border-radius: 20%;
+    align-items: center;
+    text-align: left;
+}
+
+
+.pesquisar img{
+    height: 100px;
+    background-color: white;
+}
